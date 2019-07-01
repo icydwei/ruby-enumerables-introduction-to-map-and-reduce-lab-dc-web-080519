@@ -7,3 +7,13 @@ def map_to_negativize(source_array)
     end
   return new_array
 end
+
+def map_to_no_change(source_array)
+  counter = 0
+  nochange_array = []
+  while counter < source_array.length do
+      nochange_array[counter] = source_array[counter]
+      counter+=1
+    end
+  return nochange_array
+end
