@@ -52,9 +52,9 @@ def reduce_to_all_true(source_array)
   counter = 0
   while counter < source_array.length do
     if (source_array[counter] == false || source_array[counter] == nil)
-      counter += 1
-    elsif source_array[counter] == false
       return false
+    end
+      counter += 1
     end
   end
   return true
